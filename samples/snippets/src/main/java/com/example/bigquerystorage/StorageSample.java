@@ -71,7 +71,7 @@ public class StorageSample {
       while (!decoder.isEnd()) {
         // Reusing object row
         row = datumReader.read(row, decoder);
-        System.out.println(row.toString());
+        // System.out.println(row.toString());
       }
     }
   }

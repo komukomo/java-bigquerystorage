@@ -90,7 +90,7 @@ public class StorageArrowSample {
       loader.load(deserializedBatch);
       // Release buffers from batch (they are still held in the vectors in root).
       deserializedBatch.close();
-      System.out.println(root.contentToTSVString());
+      // System.out.println(root.contentToTSVString());
       // Release buffers from vectors in root.
       root.clear();
     }
